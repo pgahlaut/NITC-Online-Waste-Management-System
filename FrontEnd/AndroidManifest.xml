@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team15.nitcwastemanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NITCWasteManagementSystem"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ViewAlertsActivity"></activity>
+        <activity android:name=".ViewTasksActivity" />
+        <activity android:name=".StaffHomeActivity" />
+        <activity android:name=".AdminViewFeedbackActivity" />
+        <activity android:name=".ViewCleaningStaffActivity" />
+        <activity android:name=".AddCleaningStaffActivity" />
+        <activity android:name=".ManageCleaningStaffActivity" />
+        <activity android:name=".ManageDustbinActivity" />
+        <activity android:name=".AdminRequestViewActivity" />
+        <activity android:name=".RaiseAlertActivity" />
+        <activity android:name=".GiveFeedbackActivity" />
+        <activity android:name=".ListRequestActivity" />
+        <activity android:name=".RequestAdderActivity" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
